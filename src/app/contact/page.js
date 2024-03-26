@@ -41,12 +41,14 @@ const sendMessage = async (values) => {
 };
 
 function page() {
-  const handleSubmitContact = async (values, submitProps) => {
-    if (!values.company) {
-      values.company = "a company"
-    }
+    const handleSubmitContact = async (values, { resetForm }) => {
+      if (!values.company) {
+        values.company = "a company"
+      }
     const {msg} = await sendMessage(values)
-    console.log(msg)
+    if (msg) {
+      resetForm();
+    }
   };
   return (
     <main className="w-100vw h-[100vh] overflow-x-hidden overflow-y-scroll relative">
