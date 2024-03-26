@@ -28,7 +28,7 @@ const initailaState = {
 
 const sendMessage = async (values) => {
   try {
-    const resp = await fetch("http://localhost:3001/api/mail/register", {
+    const resp = await fetch("https://skailee-09041f34dfef.herokuapp.com/api/mail/register", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(values),
