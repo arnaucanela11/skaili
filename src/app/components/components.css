@@ -28,6 +28,13 @@
   font-weight: 500;
 }
 
+.footer__links__span:hover {
+  color: #eff5ffc2;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
 .header__contact__button {
   background: #fff;
   padding: 10px 20px;
@@ -35,6 +42,16 @@
   color: #000000;
   font-size: 14px;
   font-weight: 600;
+}
+
+.header__contact__button:hover {
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  background: transparent;
+  border: 1px solid #fff;
 }
 
 .carrusel__container {
@@ -84,7 +101,13 @@
   content: "";
   position: absolute;
   inset: 10px;
-  background: linear-gradient(to right, #dd00ffd6, #001affc9, #00c3ffc9, #00ffa2c1);
+  background: linear-gradient(
+    to right,
+    #dd00ffd6,
+    #001affc9,
+    #00c3ffc9,
+    #00ffa2c1
+  );
   filter: blur(1.2em);
   z-index: -1;
 }
