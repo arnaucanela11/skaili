@@ -43,7 +43,7 @@ function Header() {
           <div class="bars" id="bar3"></div>
         </label>
       </button> */}
-      <motion.nav animate={isOpen ? "closed" : "open"} variants={variants}>
+      <motion.nav className="header__nav__toggle-button" animate={isOpen ? "closed" : "open"} variants={variants}>
         <button className="header__nav__toggle-button">
           <input
             type="checkbox"
