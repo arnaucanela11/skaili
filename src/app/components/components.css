@@ -150,3 +150,116 @@
   color: #bab3b3;
   font-size: 14px;
 }
+
+.header__nav__toggle-button {
+  position: relative;
+  margin-right: 3%;
+  background: #ffffff00;
+  box-shadow: none;
+  border: none;
+  display: none;
+  margin-top: 8px;
+}
+
+#checkbox {
+  display: none;
+}
+
+.toggle {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 7.5px;
+  transition-duration: 0.3s;
+}
+
+.bars {
+  width: 100%;
+  height: 3px;
+  background-color: rgb(219, 211, 211);
+  border-radius: 3.8px;
+  transition-duration: 0.3s;
+}
+
+#checkbox:checked + .toggle .bars {
+  margin-left: 8px;
+}
+
+#checkbox:checked + .toggle #bar2 {
+  transform: rotate(135deg);
+  margin-left: 0;
+  transform-origin: center;
+  transition-duration: 0.3s;
+}
+
+#checkbox:checked + .toggle #bar1 {
+  transform: rotate(45deg);
+  transition-duration: 0.3s;
+  transform-origin: left center;
+}
+
+#checkbox:checked + .toggle #bar3 {
+  transform: rotate(-45deg);
+  transition-duration: 0.3s;
+  transform-origin: left center;
+}
+
+.header__toggle__menu__div {
+  display: none;
+  width: fit-content;
+  height: fit-content;
+  padding: 20px 20px;
+  background: #171414;
+  position: fixed;
+  top: 14%;
+  right: min(4%, 10px); /* Menú inicialmente fuera de la pantalla */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+
+.header__toggle__menu__div > div {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  gap: 25px;
+}
+
+.header__toggle__menu__div > div > li {
+  color: #fff;
+}
+
+.header__toggle__menu__sign_up {
+  border: 1px #fff solid;
+  border-radius: 8px;
+  padding: 7px 11px;
+}
+
+.header__toggle__menu__login {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 950px) {
+  .header__elements__div {
+    display: none; /* Oculta la navegación en pantallas más pequeñas */
+  }
+
+  .header__contact__button {
+    display: none;
+  }
+
+  .header__nav__toggle-button {
+    display: block; /* Muestra el botón en pantallas más pequeñas */
+  }
+
+  .header__toggle__menu__div {
+    display: block; /* Muestra el botón en pantallas más pequeñas */
+  }
+}

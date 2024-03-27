@@ -33,7 +33,7 @@ function page() {
                 personal data. Users, by ticking the box enabled in the contact
                 forms enabled on the website expressly and freely and
                 unequivocally accept that their personal data are processed by
-                Skailee, where it will inform the user according to analyze the
+                Skaili, where it will inform the user according to analyze the
                 information that derives from such management to improve our
                 services and adapt them to the preferences of users with the
                 following purposes:{" "}
@@ -59,22 +59,22 @@ function page() {
             <span className="purpose__span">2. Legitimation</span>
             <div className="ml-8 mt-4">
               <span className="purpose__text__span">
-                When the user sends his personal data to Skailee, he expressly
-                consents that Skailee carries out the following activities and/or
+                When the user sends his personal data to Skaili, he expressly
+                consents that Skaili carries out the following activities and/or
                 actions, unless otherwise stated when contracting or subscribing
-                to any Skailee product and/or service or as a result of a
+                to any Skaili product and/or service or as a result of a
                 subsequent revocation of the consent initially granted:
               </span>
               <ul className="purpose__text__ul">
                 <li>
                   Process orders, requests or respond to requests that are made
                   by the user through any of the contact forms that are made
-                  available to the user on the Skailee website
+                  available to the user on the Skaili website
                 </li>
                 <li>Carry out statistical studies</li>{" "}
               </ul>
               <span className="legitimation__text__span__1">
-                By sending data, you consent to Skailee processing your personal
+                By sending data, you consent to Skaili processing your personal
                 data according to the purposes described. You guarantee that the
                 data provided are truthful, accurate and complete, and you are
                 responsible for notifying any changes in these.
@@ -85,7 +85,7 @@ function page() {
             <span className="purpose__span">3. Recipients</span>
             <div className="ml-8 mt-4 flex flex-col gap-4">
               <span className="purpose__text__span">
-                The data will be communicated to other companies of the Skailee
+                The data will be communicated to other companies of the Skaili
                 business group for internal administrative purposes, including
                 the processing of personal data of customers or employees. The
                 files are stored in our technological providers of Web storage,
@@ -102,7 +102,7 @@ function page() {
                 described herein and to give you a complete service.
               </span>
               <span className="purpose__text__span">
-                Skailee expressly informs and guarantees users that their
+                Skaili expressly informs and guarantees users that their
                 personal data will not be transferred in any case to third
                 companies, and that whenever some type of transfer of personal
                 data is to take place, prior express consent would be requested,
@@ -118,7 +118,7 @@ function page() {
                 right to information, access, rectification, cancellation,
                 opposition and portability. You. you have the right to obtain
                 confirmation as to whether or not we process personal data
-                concerning you at Skailee. Interested persons have the right to
+                concerning you at Skaili. Interested persons have the right to
                 access your personal data, as well as to request rectification
                 of inaccurate data or where appropriate, request their deletion
                 where, inter alia, the data are no longer necessary for the
@@ -133,17 +133,17 @@ function page() {
               <span className="purpose__text__span">
                 En determinadas circunstancias y por motivos relacionados con su
                 situación particular, los interesados podrán oponerse al
-                tratamiento de sus datos Skailee dejará de tratar los datos,
+                tratamiento de sus datos Skaili dejará de tratar los datos,
                 salvo por motivos legítimos imperiosos, o el ejercicio o la
                 defensa de posibles reclamaciones.
               </span>
               <span className="purpose__text__span">
                 You can exercise your rights of access, rectification,
                 cancellation, opposition and portability by sending an email to
-                info@Skailee.es.
+                info@skaili.es.
               </span>
               <span className="purpose__text__span">
-                Skailee also undertakes to guarantee the confidentiality of your
+                Skaili also undertakes to guarantee the confidentiality of your
                 personal data and to use them in accordance with the purposes
                 indicated above.
               </span>
@@ -174,11 +174,11 @@ function page() {
             <div className="ml-8 mt-4 flex flex-col gap-4 mb-12">
               <span className="purpose__text__span">
                 The personal data you provide us through the website
-                www.Skailee.com (hereinafter the «Website») as a user of the same
+                www.skaili.com (hereinafter the «Website») as a user of the same
                 will be included in a file owned by Arnau Canela Daunis from now
-                Skailee, with registered office in Carrer Pintor Doménech i Farré
+                Skaili, with registered office in Carrer Pintor Doménech i Farré
                 3-A2, 08320 El Masnou (Barcelona); provided with N.I.F. no.
-                48221444N; with e-mail address info@Skailee.es.
+                48221444N; with e-mail address info@skaili.es.
               </span>
               <span className="purpose__text__span">
                 The processing of your data and this Privacy Policy will be

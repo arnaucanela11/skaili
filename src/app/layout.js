@@ -11,7 +11,7 @@ export const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "Skailee",
+  title: "Skaili",
   description: "Business digitalitzation agency",
 };
 
