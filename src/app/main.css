@@ -58,7 +58,6 @@
   align-items: center;
 }
 
-
 .main__page__main__button:hover {
   color: #fff;
   font-weight: 600;
@@ -164,7 +163,7 @@
   width: fit-content;
   height: fit-content;
   background-color: #000;
-  background-image: url('./assets/Topographic.png');
+  background-image: url("./assets/Topographic.png");
   background-size: cover;
   border-top: 0.2px solid #91a1c567;
   padding: 50px 160px;
@@ -351,4 +350,288 @@
 .rights__span {
   color: #eff5ffc6;
   font-size: 14px;
+}
+
+@media screen and (max-width: 1500px) {
+  .services__main__div {
+    width: 100vw;
+    height: 105vh;
+    padding: 10rem 30px;
+  }
+}
+
+@media screen and (max-width: 1220px) {
+  .services__main__div {
+    height: 113vh;
+    padding: 11rem 40px;
+  }
+
+  .ServicesTech__image {
+    width: 340px;
+    height: 320px;
+    background-image: url("./assets/ServicesTech.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .services__web__creation__div {
+    background: #32323253;
+    border-radius: 16px;
+    border: 0.6px rgba(255, 255, 255, 0.626) solid;
+    padding: 14px 18px;
+  }
+
+  .web__creation__span {
+    color: #fff;
+    font-size: 16px;
+  }
+
+  .web__creation__span__brackets {
+    color: #d5d5d5d1;
+    font-size: 12px;
+  }
+
+  .ul__services {
+    margin-left: 25px;
+    margin-top: 15px;
+    list-style-type: disc;
+  }
+
+  .ul__services > li {
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .web__creation__div {
+    margin-bottom: 10px;
+  }
+
+  .services__main__flex__div {
+    gap: 50px;
+  }
+
+  .gradient__services__image {
+    top: 0%;
+  }
+
+  .main__work__div {
+    gap: 30px;
+    padding: 40px 130px;
+  }
+
+  .how_we_work__title {
+    font-size: 50px;
+  }
+
+  .work__contact__span {
+    font-size: 14px;
+  }
+
+  .work__email__span {
+    font-size: 14px;
+  }
+
+  .work__content__div {
+    background: linear-gradient(to bottom, #5050500c, #00000000);
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: 0.2px solid #ffffff3b;
+    border-radius: 10px;
+    border-bottom: 0px;
+    padding: 22px 20px;
+  }
+
+  .work__email__div {
+    background: linear-gradient(to bottom, #5050500c, #00000000);
+    width: 305px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    border: 0.2px solid #ffffff3b;
+    border-radius: 10px;
+    border-bottom: 0px;
+    padding: 20px 15px;
+  }
+
+  .main__work__bg {
+    width: 1800px;
+    height: 1200px;
+  }
+
+  .how_we_work__section {
+    margin-top: 300px;
+  }
+
+  .questions__section {
+    margin-top: 270px;
+    margin-bottom: 200px;
+  }
+}
+
+@media screen and (max-width: 1005px) {
+  .main__page__main__title {
+    font-size: 60px;
+    line-height: 75px;
+  }
+
+  .main__page__main__description {
+    font-size: 14px;
+    width: 50%;
+  }
+
+  .main__page__main__section__div {
+    gap: 8rem;
+  }
+
+  .services__main__div {
+    height: 113vh;
+    padding: 10rem 40px;
+    background-size: cover;
+  }
+
+  .ServicesTech__image {
+    width: 300px;
+    height: 280px;
+    background-image: url("./assets/ServicesTech.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .services__main__title {
+    font-size: 50px;
+  }
+
+  .services__web__creation__div {
+    background: #32323253;
+    border-radius: 16px;
+    border: 0.6px rgba(255, 255, 255, 0.626) solid;
+    padding: 12px 16px;
+  }
+
+  .web__creation__span {
+    color: #fff;
+    font-size: 14px;
+  }
+
+  .web__creation__span__brackets {
+    color: #d5d5d5d1;
+    font-size: 11px;
+  }
+
+  .ul__services {
+    margin-left: 25px;
+    margin-top: 14px;
+    list-style-type: disc;
+  }
+
+  .ul__services > li {
+    color: #fff;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+
+  .web__creation__div {
+    margin-bottom: 10px;
+  }
+
+  .services__main__flex__div {
+    gap: 50px;
+  }
+
+  .gradient__services__image {
+    top: 0%;
+  }
+
+  .how_we_work__section {
+    margin-top: 170px;
+  }
+
+  .main__work__div {
+    gap: 20px;
+    padding: 20px 100px;
+  }
+
+  .how_we_work__title {
+    font-size: 40px;
+  }
+
+  .work__contact__span {
+    font-size: 12px;
+  }
+
+  .work__email__span {
+    font-size: 12px;
+  }
+
+  .work__contact__button {
+    background: #fff;
+    font-weight: 700;
+    color: #000;
+    padding: 7px 12px;
+    font-size: 12px;
+  }
+
+  .work__content__div {
+    background: linear-gradient(to bottom, #5050500c, #00000000);
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    border: 0.2px solid #ffffff3b;
+    border-radius: 10px;
+    border-bottom: 0px;
+    padding: 18px 18px;
+  }
+
+  .work__email__div {
+    background: linear-gradient(to bottom, #5050500c, #00000000);
+    width: 260px;
+    height: 155px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    border: 0.2px solid #ffffff3b;
+    border-radius: 10px;
+    border-bottom: 0px;
+    padding: 20px 15px;
+  }
+
+  .main__work__bg {
+    width: 1000px;
+    height: 1000px;
+  }
+
+  .work__deliver__span {
+    font-size: 11.5px;
+  }
+
+  .services__section {
+    margin-top: 20%;
+  }
+
+  .questions__title {
+    font-size: 45px;
+  }
+
+  .questions__section {
+    margin-top: 250px;
+    margin-bottom: 180px;
+    gap: 50px;
+  }
 }

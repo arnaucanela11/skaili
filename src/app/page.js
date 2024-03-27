@@ -217,7 +217,7 @@ export default function Home() {
             <div className="services__main__flex__div__2">
               <div className="services__main__flex__div__3">
                 <div className="services__web__creation__div">
-                  <div>
+                  <div className="web__creation__div">
                     <span
                       className={`web__creation__span ${poppins.className}`}
                     >
@@ -367,7 +367,7 @@ export default function Home() {
                 <span className="work__contact__span">
                   <b>Contact</b> and explain your project to us.
                 </span>
-                <button className="work__contact__button">Contact now</button>
+                <Link className="work__contact__button" href={'/contact'}>Contact now</Link>
               </div>
               <div className="work__line1" />
               <div className="work__email__div">

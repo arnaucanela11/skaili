@@ -1,6 +1,7 @@
 import { Inter, Shanti, Raleway, Poppins } from "next/font/google";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const inter = Inter({ subsets: ["latin"] });
 export const raleway = Raleway({ subsets: ["latin"], weight: ["400", "700"] });
@@ -21,6 +22,7 @@ export default function RootLayout({ children }) {
       <body className={`${inter.className} bg-black overflow-hidden`}>
         {children}
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );

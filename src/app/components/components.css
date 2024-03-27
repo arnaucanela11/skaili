@@ -215,7 +215,7 @@
   height: fit-content;
   padding: 20px 20px;
   background: #171414;
-  position: fixed;
+  position: absolute;
   top: 14%;
   right: min(4%, 10px); /* Menú inicialmente fuera de la pantalla */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -232,18 +232,15 @@
   gap: 25px;
 }
 
-.header__toggle__menu__div > div > li {
+.header__toggle__menu__div > div > a {
   color: #fff;
 }
 
-.header__toggle__menu__sign_up {
+.header__toggle__menu__login {
   border: 1px #fff solid;
   border-radius: 8px;
   padding: 7px 11px;
-}
-
-.header__toggle__menu__login {
-  text-decoration: underline;
+  color: #fff;
 }
 
 @media screen and (max-width: 950px) {
@@ -262,4 +259,21 @@
   .header__toggle__menu__div {
     display: block; /* Muestra el botón en pantallas más pequeñas */
   }
+
+.carrusel__images {
+  width: 425px;
+  height: 270px;
+}
+}
+
+@media screen and (max-width: 1005px) {
+
+.carrusel__images {
+  width: 425px;
+  height: 270px;
+}
+
+.questions__main__div {
+  width: 65%;
+}
 }

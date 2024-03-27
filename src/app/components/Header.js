@@ -12,7 +12,7 @@ const variants = {
 };
 
 function Header() {
-  const [isOpen, setIsOpen] = useState(false);
+  const [toggleMenu, setToggleMenu] = useState(false);
   return (
     <section className="header__section">
       <Image alt="logo" src={AngelyLogo} className="Angely__logo" />
@@ -30,7 +30,7 @@ function Header() {
       <Link href="/contact" className="header__contact__button">
         Contact
       </Link>
-      {/* <button className="header__nav__toggle-button">
+      <button className="header__nav__toggle-button">
         <input
           type="checkbox"
           id="checkbox"
@@ -42,26 +42,30 @@ function Header() {
           <div class="bars" id="bar2"></div>
           <div class="bars" id="bar3"></div>
         </label>
-      </button> */}
-      <motion.nav className="header__nav__toggle-button" animate={isOpen ? "closed" : "open"} variants={variants}>
-        <button className="header__nav__toggle-button">
-          <input
-            type="checkbox"
-            id="checkbox"
-            value={isOpen}
-            onClick={() => setIsOpen((isOpen) => !isOpen)}
-          />
-          <label for="checkbox" class="toggle">
-            <div class="bars" id="bar1"></div>
-            <div class="bars" id="bar2"></div>
-            <div class="bars" id="bar3"></div>
-          </label>
-        </button>
-
-        <li className="text-white">Hello</li>
-        <li className="text-white">Hello</li>
-        <li className="text-white">Hello</li>
-      </motion.nav>
+      </button>
+      {toggleMenu ? (
+        <motion.div
+          initial={{ scale: 0, opacity: 0 }}
+          animate={{ scale: 1, opacity: 1 }}
+          transition={{
+            type: "spring",
+            stiffness: 260,
+            damping: 20,
+          }}
+          className="header__toggle__menu__div"
+        >
+          <div>
+            <a href="#services__section">Services</a>
+            <a href="#process__section">Process</a>
+            <a href="#questions__section">Frequent Questions</a>
+            <Link href={"/contact"} className="header__toggle__menu__login">
+              Contact
+            </Link>
+          </div>
+        </motion.div>
+      ) : (
+        ""
+      )}
     </section>
   );
 }
