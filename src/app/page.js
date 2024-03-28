@@ -174,14 +174,14 @@ export default function Home() {
             <br />
             FOR YOUR BUSINESS
           </h1>
-          <span
+          <h3
             className={`main__page__main__description ${raleway.className}`}
           >
             We are a <span className="font-bold">digitalization agency</span>{" "}
             focused on helping you achieve the digitalitzation of your business,
             in a time record with our specialized team. All prepared to make
             your business more scalable.
-          </span>
+          </h3>
           <Link href={"/contact"} className="main__page__main__button">
             Ask for a quote{" "}
             <svg

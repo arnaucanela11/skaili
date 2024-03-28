@@ -2,8 +2,9 @@
 import Image from "next/image";
 import AngelyLogo from "../assets/AngelyLogo.png";
 import Link from "next/link";
-import RocketImage from "../assets/RocketImage.png";
 import BgShapes from "../assets/BgShapesContact.png";
+import ContactCrown from '../assets/ContactCrown.png'
+import BgShapesSmallDevices from '../assets/BgShapesContactSmallDevices.png'
 import "./contact.css";
 import { ErrorMessage, Field, Formik } from "formik";
 import * as yup from "yup";
@@ -15,7 +16,9 @@ const loginSchema = yup.object().shape({
     .email("the email format is not correct")
     .required("required"),
   message: yup.string().required("required"),
-  acceptPolicy: yup.boolean().oneOf([true], 'You have to accepts the privacy policy.')
+  acceptPolicy: yup
+    .boolean()
+    .oneOf([true], "You have to accepts the privacy policy."),
 });
 
 const initailaState = {
@@ -28,11 +31,14 @@ const initailaState = {
 
 const sendMessage = async (values) => {
   try {
-    const resp = await fetch("https://skailee-09041f34dfef.herokuapp.com/api/mail/register", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(values),
-    });
+    const resp = await fetch(
+      "https://skailee-09041f34dfef.herokuapp.com/api/mail/register",
+      {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(values),
+      }
+    );
     const resp2 = await resp.json();
     return resp2;
   } catch (error) {
@@ -41,11 +47,11 @@ const sendMessage = async (values) => {
 };
 
 function page() {
-    const handleSubmitContact = async (values, { resetForm }) => {
-      if (!values.company) {
-        values.company = "a company"
-      }
-    const {msg} = await sendMessage(values)
+  const handleSubmitContact = async (values, { resetForm }) => {
+    if (!values.company) {
+      values.company = "a company";
+    }
+    const { msg } = await sendMessage(values);
     if (msg) {
       resetForm();
     }
@@ -53,10 +59,10 @@ function page() {
   return (
     <main className="w-100vw h-[100vh] overflow-x-hidden overflow-y-scroll relative">
       <section className="header__section">
-      <Link href={"/"}>
+        <Link href={"/"}>
           <Image alt="logo" src={AngelyLogo} className="Angely__logo" />
         </Link>
-        <Link href="/" className="header__contact__button">
+        <Link href="/" className="header__contact__button__contact">
           Home page
         </Link>
       </section>
@@ -81,12 +87,12 @@ function page() {
                   <div className="contact__data__div">
                     <span className="contact__data__span">Contact Data</span>
                     <div className="signup__form">
-                      <div className="flex flex-col justify-center items-start gap-8">
+                      <div className="signup__form__1">
                         <label
                           htmlFor="email"
-                          className="flex flex-col justify-center items-start gap-1 text-[#ffffffe0]"
+                          className="field__label__flex"
                         >
-                          <label className="text-[14px]">Name*</label>
+                          <label className="field__label">Name*</label>
                           <Field
                             name="name"
                             type="text"
@@ -104,9 +110,9 @@ function page() {
                         </label>
                         <label
                           htmlFor="company"
-                          className="flex flex-col justify-center items-start gap-1 text-[#ffffffe0]"
+                          className="field__label__flex"
                         >
-                          <label className="text-[14px]">
+                          <label className="field__label">
                             Company (optional)
                           </label>
                           <Field
@@ -127,9 +133,9 @@ function page() {
                       </div>
                       <label
                         htmlFor="email"
-                        className="flex flex-col justify-center items-start gap-1 text-[#ffffffe0]"
+                        className="field__label__flex"
                       >
-                        <label className="text-[14px]">Email*</label>
+                        <label className="field__label">Email*</label>
                         <Field
                           name="email"
                           type="text"
@@ -147,11 +153,13 @@ function page() {
                       </label>
                     </div>
                     <div className="tell__us__div">
-                      <div className="flex flex-row gap-4 items-center">
-                      <span className="contact__data__span">
-                        Tell us about your idea
-                      </span>
-                      <span className="contact__data__span__1">(in any language)</span>
+                      <div className="tell__us__div__1">
+                        <span className="contact__data__span">
+                          Tell us about your idea
+                        </span>
+                        <span className="contact__data__span__1">
+                          (in any language)
+                        </span>
                       </div>
                       <Field
                         as="textarea"
@@ -170,24 +178,31 @@ function page() {
                     </div>
                     <div className="privacy__rights">
                       <label className="privacy__rights__label">
-                      <div class="checkbox-wrapper-46">
-                        <Field
-                          name="acceptPolicy"
-                          type="checkbox"
-                          id="cbx-46"
-                          class="inp-cbx"
-                        />
-                        <label for="cbx-46" class="cbx">
-                          <span>
-                            <svg viewBox="0 0 12 10" height="10px" width="12px">
-                              <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
-                            </svg>
-                          </span>
-                        </label>
-                      </div>
-                      <span className="privacy__rights__span">
-                        I have read and accept the <Link href={'/data_protection'} className="underline">data protection policy{" "}</Link>
-                      </span>
+                        <div class="checkbox-wrapper-46">
+                          <Field
+                            name="acceptPolicy"
+                            type="checkbox"
+                            id="cbx-46"
+                            class="inp-cbx"
+                          />
+                          <label for="cbx-46" class="cbx">
+                            <span>
+                              <svg
+                                viewBox="0 0 12 10"
+                                height="10px"
+                                width="12px"
+                              >
+                                <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                              </svg>
+                            </span>
+                          </label>
+                        </div>
+                        <span className="privacy__rights__span">
+                          I have read and accept the{" "}
+                          <Link href={"/data_protection"} className="underline">
+                            data protection policy{" "}
+                          </Link>
+                        </span>
                       </label>
                       <ErrorMessage
                         name="acceptPolicy"
@@ -219,11 +234,15 @@ function page() {
               </form>
             )}
           </Formik>
+          <Image className="contact__crown" src={ContactCrown}></Image>
+          <Image className="contact__crown__1" src={ContactCrown}></Image>
+          <Image className="bg__shapes__small__devices" src={BgShapesSmallDevices}></Image>
         </div>
-        <div className="picture__div">
-          <Image alt="rocket__image" src={RocketImage}></Image>
-          <Image alt="bg__shapes" className="bg__shapes__contact" src={BgShapes}></Image>
-        </div>
+        <Image
+            alt="bg__shapes"
+            className="bg__shapes__contact"
+            src={BgShapes}
+          ></Image>
       </section>
     </main>
   );

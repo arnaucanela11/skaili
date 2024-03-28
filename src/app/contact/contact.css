@@ -6,9 +6,30 @@
   align-items: center;
   margin: auto;
   margin-top: 50px;
+  gap: 120px;
+}
+
+.header__contact__button__contact {
+  background: #fff;
+  padding: 10px 20px;
+  border-radius: 30px;
+  color: #000000;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.header__contact__button__contact:hover {
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  background: transparent;
+  border: 1px solid #fff;
 }
 
 .picture__div {
+  position: relative;
   width: fit-content;
   height: fit-content;
 }
@@ -16,65 +37,17 @@
 .bg__shapes__contact {
   position: absolute;
   z-index: -1;
-  right: 50px;
-  width: 800px;
-  top: 140px;
+  top: 90px;
+  right: 30px;
 }
 
 .contact__form__div {
-  background-color: #32323253;
+  background-color: #1a1a1ae1;
   width: fit-content;
   height: fit-content;
   padding: 20px 30px;
   border-radius: 20px;
 }
-
-
-
-
-
-
-.oldCats{
-    position:relative;
-    background-color: rgb(12, 12, 27);
-    border: none;
-}
-
-.catlist:after{
-    content: "";
-    position: absolute;
-    top: -2px;
-    right: -2px;
-    left: -2px;
-    bottom: -2px;
-    z-index: -1;
-}
-
-.catlist:before{
-    content: "";
-    position: absolute;
-    top: -2px;
-    right: -2px;
-    left: -2px;
-    bottom: -2px;
-    z-index: -1;
-    filter: blur(24px);
-}
-
-.catlist:nth-child(1):before,
-.catlist:nth-child(1):after{
-background: linear-gradient(235deg, #3A1C71, #D76D77, #FFAF7B);
-}
-
-.catlist:nth-child(2):before,
-.catlist:nth-child(2):after{
-background: linear-gradient(235deg, #40E0D0, #FF8C00, #FF0080);
-}
-
-
-
-
-
 
 .contact__data__span {
   color: #fff;
@@ -108,6 +81,14 @@ background: linear-gradient(235deg, #40E0D0, #FF8C00, #FF0080);
   justify-content: center;
   align-items: start;
   gap: 40px;
+}
+
+.signup__form__1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 20px;
 }
 
 .name__field {
@@ -274,6 +255,18 @@ background: linear-gradient(235deg, #40E0D0, #FF8C00, #FF0080);
   }
 }
 
+.contact__crown {
+  display: none;
+}
+
+.contact__crown__1 {
+  display: none;
+}
+
+.bg__shapes__small__devices {
+  display: none;
+}
+
 .button__submit {
   display: flex;
   flex-direction: row;
@@ -290,4 +283,424 @@ background: linear-gradient(235deg, #40E0D0, #FF8C00, #FF0080);
 .send__span {
   font-weight: 600;
   font-size: 14px;
+}
+
+@media screen and (max-width: 1500px) {
+  .main__contact {
+    width: 75%;
+    gap: 100px;
+  }
+
+  .bg__shapes__contact {
+    width: 600px;
+    height: 600px;
+    top: 200px;
+  }
+}
+
+@media screen and (max-width: 1370px) {
+  .bg__shapes__contact {
+    right: -20px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .bg__shapes__contact {
+    right: -30px;
+    width: 600px;
+    height: 600px;
+  }
+
+  .contact__form__div {
+    padding: 20px 25px;
+  }
+
+  .contact__data__span {
+    font-size: 28px;
+  }
+
+  .contact__data__span__1 {
+    font-size: 13px;
+  }
+
+  .contact__data__div {
+    gap: 15px;
+  }
+
+  .__form {
+    gap: 40px;
+  }
+
+  .name__field {
+    font-size: 13px;
+  }
+
+  .name__field__1 {
+    width: 260px;
+    font-size: 13px;
+  }
+
+  .form__div__flex {
+    gap: 40px;
+  }
+
+  .tell__us__div {
+    gap: 18px;
+  }
+
+  .message__field {
+    width: 520px;
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 1220px) {
+  .main__contact {
+    width: 85%;
+  }
+
+  .message__field {
+    width: 110%;
+    font-size: 13px;
+  }
+
+  .bg__shapes__contact {
+    right: -35px;
+    width: 600px;
+    height: 600px;
+  }
+
+  .name__field__1 {
+    width: 240px;
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 1130px) {
+  .main__contact {
+    width: 85%;
+  }
+
+  .message__field {
+    width: 100%;
+    height: 180px;
+    font-size: 13px;
+  }
+
+  .bg__shapes__contact {
+    right: -35px;
+    width: 600px;
+    height: 600px;
+  }
+
+  .name__field {
+    width: 180px;
+  }
+
+  .name__field__1 {
+    width: 220px;
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .bg__shapes__contact {
+    display: none;
+  }
+
+  .message__field {
+    width: 114%;
+    height: 160px;
+    font-size: 13px;
+  }
+
+  .name__field__1 {
+    width: 260px;
+    font-size: 13px;
+  }
+
+  .name__field {
+    width: auto;
+  }
+
+  .main__contact {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact__form__div {
+    padding: 20px 30px;
+  }
+
+  .contact__crown {
+    display: block;
+    position: absolute;
+    z-index: -1;
+    top: 10%;
+    left: 16%;
+  }
+
+  .contact__crown__1 {
+    display: block;
+    position: absolute;
+    z-index: -1;
+    bottom: -6%;
+    right: 16%;
+  }
+
+  .main__contact {
+    margin-bottom: 0px;
+  }
+
+  .bg__shapes__small__devices {
+    display: block;
+    position: absolute;
+    z-index: -1;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .contact__crown {
+    left: 13%;
+  }
+
+  .contact__crown__1 {
+    right: 13%;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .contact__crown {
+    left: 10%;
+    width: 180px;
+    top: 12%;
+  }
+
+  .contact__crown__1 {
+    right: 10%;
+    bottom: -5%;
+    width: 180px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .contact__crown {
+    left: 6%;
+    top: 14%;
+  }
+
+  .contact__crown__1 {
+    right: 6%;
+    bottom: -5%;
+  }
+  .main__contact {
+    margin-top: 8%;
+  }
+}
+
+@media screen and (max-width: 710px) {
+  .contact__crown {
+    left: 5%;
+    top: 14%;
+  }
+
+  .contact__crown__1 {
+    right: 5%;
+    bottom: -7.5%;
+  }
+  .main__contact {
+    margin-top: 8%;
+  }
+
+  .message__field {
+    width: 112%;
+    height: 190px;
+    font-size: 13px;
+  }
+
+  .name__field__1 {
+    width: 230px;
+    font-size: 13px;
+  }
+
+  .name__field {
+    width: 175px;
+  }
+  .main__contact {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact__form__div {
+    padding: 20px 30px;
+  }
+
+  .contact__data__span {
+    font-size: 25px;
+  }
+
+  .contact__data__span__1 {
+    font-size: 12px;
+  }
+
+  .header__contact__button__contact {
+    padding: 8px 14px;
+    font-size: 13px;
+  }
+
+  .main__contact {
+    margin-bottom: 12%;
+  }
+}
+
+.field__label {
+  font-size: 14px;
+}
+
+@media screen and (max-width: 710px) {
+  .name__field {
+    font-size: 12px;
+  }
+
+  .name__field__1 {
+    font-size: 12px;
+  }
+
+  .privacy__rights__span {
+    font: 12px;
+  }
+
+  .contact__crown {
+    width: 150px;
+    left: 4%;
+  }
+
+  .contact__crown__1 {
+    right: 4%;
+    bottom: -7%;
+    width: 150px;
+  }
+
+  .contact__data__span {
+    font-size: 23px;
+  }
+
+  .field__label {
+    font-size: 12px;
+  }
+
+  .message__field {
+    width: 120%;
+    height: 220px;
+  }
+}
+
+.field__label__flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 3px;
+  color: #ffffffe0;
+}
+
+.tell__us__div__1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .contact__data__div {
+    align-items: center;
+  }
+  .signup__form {
+    flex-direction: column;
+    gap: 18px;
+  }
+
+  .signup__form__1 {
+    gap: 18px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .field__label__flex {
+    align-items: center;
+  }
+
+  .tell__us__div__1 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+  }
+
+  .tell__us__div {
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .message__field {
+    width: 130%;
+    height: 220px;
+  }
+
+  .privacy__rights__span {
+    font-size: 12.5px;
+  }
+
+  .contact__crown {
+    width: 130px;
+    left: 4%;
+  }
+
+  .contact__crown__1 {
+    right: 4%;
+    bottom: -14%;
+    width: 130px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .contact__crown {
+    display: none;
+  }
+
+  .contact__crown__1 {
+    display: none;
+  }
+
+  .privacy__rights__span {
+    font-size: 12px;
+  }
+
+  .message__field {
+    width: 120%;
+    height: 250px;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+
+  .header__contact__button__contact {
+    font-size: 12px;
+  }
+
+  .privacy__rights__span {
+    font-size: 11px;
+  }
+
+  .message__field {
+    width: 110%;
+    font-size: 12px;
+  }
 }
