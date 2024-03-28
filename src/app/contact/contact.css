@@ -554,6 +554,12 @@
   .main__contact {
     margin-bottom: 12%;
   }
+
+  .bg__shapes__small__devices {
+    width: 115%;
+    height: 120%;
+    top: 62%;
+  }
 }
 
 .field__label {
@@ -595,6 +601,12 @@
   .message__field {
     width: 120%;
     height: 220px;
+  }
+
+  .bg__shapes__small__devices {
+    width: 125%;
+    height: 120%;
+    top: 62%;
   }
 }
 
@@ -667,6 +679,12 @@
     bottom: -14%;
     width: 130px;
   }
+
+  .bg__shapes__small__devices {
+    width: 355%;
+    height: 130%;
+    top: 66%;
+  }
 }
 
 @media screen and (max-width: 450px) {
@@ -687,6 +705,7 @@
     height: 250px;
     font-size: 12px;
   }
+
 }
 
 @media screen and (max-width: 400px) {

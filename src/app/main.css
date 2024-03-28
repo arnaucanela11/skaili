@@ -106,6 +106,7 @@
 }
 
 .services__web__creation__div {
+  position: relative;
   background: #32323253;
   border-radius: 16px;
   border: 0.6px rgba(255, 255, 255, 0.626) solid;
@@ -340,6 +341,25 @@
   font-size: 14px;
 }
 
+.header__contact__button__footer {
+  background: #fff;
+  padding: 10px 20px;
+  border-radius: 30px;
+  color: #000000;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.header__contact__button__footer:hover {
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  background: transparent;
+  border: 1px solid #fff;
+}
+
 .footer__mid__div {
   display: flex;
   flex-direction: row;
@@ -352,6 +372,22 @@
   font-size: 14px;
 }
 
+.services__web__creation__div__shadow {
+  display: block;
+  position: absolute;
+  bottom: -20;
+  right: -16px;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border-radius: 16px;
+  border-right: 0.6px rgba(255, 255, 255, 0.626) solid;
+  border-bottom: 0.6px rgba(255, 255, 255, 0.626) solid;
+}
+
+.services__main__flex__div__2 {
+  gap: 100px;
+}
 
 @media screen and (max-width: 1500px) {
   .services__main__div {
@@ -363,19 +399,24 @@
 
 @media screen and (max-width: 1220px) {
   .services__main__div {
+    background-position: center;
+    background-size: cover;
+  }
+  .services__main__div {
     height: 113vh;
     padding: 11rem 40px;
   }
 
   .ServicesTech__image {
-    width: 340px;
-    height: 320px;
-    background-image: url("./assets/ServicesTech.png");
-    background-position: center;
+    width: 320px;
+    height: 300px;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-position: center;
   }
 
+  .services__main__flex__div {
+    margin-top: -30px;
+  }
   .services__web__creation__div {
     background: #32323253;
     border-radius: 16px;
@@ -470,7 +511,7 @@
   }
 
   .how_we_work__section {
-    margin-top: 300px;
+    margin-top: 250px;
   }
 
   .questions__section {
@@ -503,10 +544,6 @@
   .ServicesTech__image {
     width: 300px;
     height: 280px;
-    background-image: url("./assets/ServicesTech.png");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
   }
 
   .services__main__title {
@@ -514,9 +551,6 @@
   }
 
   .services__web__creation__div {
-    background: #32323253;
-    border-radius: 16px;
-    border: 0.6px rgba(255, 255, 255, 0.626) solid;
     padding: 12px 16px;
   }
 
@@ -634,5 +668,481 @@
     margin-top: 250px;
     margin-bottom: 180px;
     gap: 50px;
+  }
+}
+
+@media screen and (max-width: 905px) {
+  .footer__links__div {
+    gap: 100px;
+  }
+
+  .services__main__div {
+    background-position: center;
+    background-size: cover;
+  }
+  .ServicesTech__image {
+    width: 250px;
+    height: 230px;
+  }
+
+  .services__web__creation__div {
+    padding: 12px 12px;
+    width: 500px;
+  }
+
+  .main__work__div {
+    gap: 20px;
+    padding: 20px 80px;
+  }
+}
+
+.services__title__div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.services__lines {
+  display: none;
+}
+
+
+@media screen and (max-width: 850px) {
+  .ServicesTech__image {
+    display: none;
+  }
+
+  .services__lines {
+    display: block;
+  }
+
+  .services__web__creation__div__shadow {
+    display: block;
+    position: absolute;
+    bottom: -20;
+    right: -20;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border-radius: 16px;
+    border-right: 0.6px rgba(255, 255, 255, 0.626) solid;
+    border-bottom: 0.6px rgba(255, 255, 255, 0.626) solid;
+  }
+
+  .gradient__services__image {
+    width: 900px;
+    height: 100%;
+    bottom: 0%;
+  }
+
+  .work__line2 {
+    width: 80px;
+  }
+
+  .questions__section {
+    margin-top: 200px;
+  }
+
+  .how_we_work__section {
+    margin-top: 160px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .footer__links__div {
+    gap: 80px;
+  }
+
+  .main__page__main__title {
+    font-size: 52px;
+    line-height: 70px;
+  }
+
+  .main__page__main__button {
+    padding: 10px 14px;
+    gap: 0px;
+  }
+
+  .main__button__svg {
+    display: none;
+  }
+
+  .main__page__main__description {
+    font-size: 13px;
+    width: 60%;
+  }
+  .work__email__div {
+    width: 240px;
+  }
+
+  .how_we_work__title {
+    font-size: 35px;
+  }
+
+  .work__contact__svg {
+    width: 35px;
+  }
+
+  .work__contact__span {
+    font-size: 11.2px;
+  }
+
+  .main__work__div {
+    padding: 20px 60px;
+  }
+
+  .footer__div {
+    height: 270px;
+    gap: 40px;
+    justify-content: center;
+  }
+
+  .footer__links__div {
+    width: fit-content;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .work__line2 {
+    width: 60px;
+  }
+
+  .work__contact__svg {
+    width: 30px;
+  }
+
+  .work__contact__span {
+    font-size: 10px;
+  }
+
+  .work__email__div {
+    width: 225px;
+  }
+
+  .main__work__div {
+    padding: 20px 50px;
+  }
+
+  .questions__title {
+    font-size: 40px;
+  }
+
+  .rights__span {
+    font-size: 13px;
+  }
+
+  .how_we_work__section {
+    margin-top: 130px;
+  }
+}
+
+.work__line1__1 {
+  display: none;
+}
+
+@media screen and (max-width: 610px) {
+  .footer__links__div {
+    gap: 50px;
+  }
+
+  .footer__links__span {
+    font-size: 14px;
+  }
+
+  .header__contact__button__footer {
+    font-size: 14px;
+    padding: 8px 14px;
+  }
+
+  .main__page__main__title {
+    font-size: 45px;
+    line-height: 60px;
+  }
+
+  .main__page__main__description {
+    width: 70%;
+    font-size: 12.5px;
+  }
+
+  .main__page__main__button {
+    font-size: 12px;
+  }
+
+  .work__line2 {
+    width: 60px;
+  }
+
+  .work__contact__svg {
+    width: 30px;
+  }
+
+  .work__contact__span {
+    font-size: 12px;
+  }
+
+  .work__content__div {
+    padding: 15px 15px;
+    width: 320px;
+  }
+
+  .work__email__div {
+    width: 320px;
+    padding: 15px 15px;
+    height: 140px;
+  }
+
+  .main__work__div {
+    padding: 20px 50px;
+  }
+
+  .questions__title {
+    font-size: 40px;
+  }
+
+  .rights__span {
+    font-size: 13px;
+  }
+
+  .how_we_work__section {
+    margin-top: 130px;
+  }
+
+  .main__work__div__flex {
+    flex-direction: column;
+  }
+
+  .work__line1 {
+    height: 30px;
+  }
+
+  .work__line2 {
+    display: none;
+  }
+
+  .main__work__div__flex {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .work__line1__1 {
+    display: block;
+    background: #fff;
+    width: 1px;
+    height: 30px;
+  }
+
+  .main__work__bg {
+    position: absolute;
+    z-index: -1;
+    height: 205%;
+    width: 1000px;
+  }
+
+  .questions__section {
+    gap: 40px;
+  }
+
+  .services__main__title {
+    font-size: 45px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .main__page__bg__colors {
+    top: -40px;
+    left: -40px;
+  }
+
+  .main__page__main__description {
+    font-size: 11.5px;
+  }
+
+  .services__main__div {
+    background-position: center;
+    background-size: cover;
+  }
+
+  .services__web__creation__div {
+    width: 400px;
+  }
+
+  .services__title__div {
+    gap: 20px;
+  }
+
+  .how_we_work__title {
+    font-size: 35px;
+  }
+
+  .questions__title {
+    font-size: 35px;
+  }
+
+  .footer__div {
+    height: 230px;
+    gap: 25px;
+  }
+
+  .footer__links__div {
+    gap: 45px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .main__page__main__title {
+    font-size: 38px;
+    line-height: 50px;
+  }
+
+  .footer__links__div {
+    gap: 35px;
+  }
+
+  .footer__links__span {
+    font-size: 12px;
+  }
+
+  .header__contact__button__footer {
+    font-size: 12px;
+  }
+
+  .rights__span {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 455px) {
+  .services__web__creation__div {
+    width: 340px;
+  }
+
+  .services__main__title {
+    font-size: 40px;
+  }
+
+  .how_we_work__title {
+    font-size: 32px;
+  }
+
+  .work__content__div {
+    width: 280px;
+  }
+
+  .work__email__div {
+    width: 280px;
+  }
+
+  .questions__title {
+    font-size: 38px;
+    width: 250px;
+    margin: auto;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .footer__links__div {
+    gap: 30px;
+  }
+
+  .work__content__div {
+    width: 260px;
+    height: 140px;
+  }
+
+  .work__contact__span {
+    font-size: 11px;
+  }
+
+  .work__contact__button {
+    font-size: 11px;
+  }
+
+  .work__email__div {
+    width: 260px;
+    height: 140px;
+  }
+
+  .work__email__span {
+    font-size: 11px;
+  }
+
+  .main__page__main__title {
+    font-size: 35px;
+    line-height: 48px;
+  }
+
+  .questions__title {
+    font-size: 35px;
+  }
+
+  .how_we_work__section {
+    margin-top: 100px;
+  }
+}
+
+@media screen and (max-width: 395px) {
+  .main__page__main__description {
+    font-size: 11px;
+    width: 75%;
+  }
+
+  .main__page__main__title {
+    font-size: 32px;
+    line-height: 45px;
+  }
+
+  .services__web__creation__div {
+    width: 290px;
+  }
+
+  .services__main__flex__div {
+    gap: 40px;
+    margin-top: -10px;
+  }
+
+  .main__work__div {
+    padding: 20px 35px;
+  }
+
+  .work__email__div {
+    padding: 10px 10px;
+    height: 130px;
+    width: 260px;
+  }
+
+  .work__content__div {
+    padding: 10px 10px;
+    height: 130px;
+    width: 260px;
+  }
+
+  .questions__section {
+    gap: 30px;
+    margin-bottom: 150px;
+  }
+
+
+
+  .how_we_work__title {
+    font-size: 30px;
+  }
+
+  .footer__links__div {
+    gap: 25px;
+  }
+
+  .footer__links__span {
+    font-size: 11px;
+  }
+
+  .header__contact__button__footer {
+    font-size: 11px;
+  }
+
+  .rights__span {
+    font-size: 11px;
   }
 }

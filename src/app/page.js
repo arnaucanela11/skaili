@@ -15,6 +15,7 @@ import Questions from "./components/Questions";
 import FooterBg from "./assets/Ellipse 6.png";
 import FooterLogo from "./assets/Group 15.png";
 import Carousel from "./components/Carrusel";
+import ServicesLines from "./assets/ServicesLines.png";
 
 const images = [
   CarruselImage4,
@@ -185,6 +186,7 @@ export default function Home() {
           <Link href={"/contact"} className="main__page__main__button">
             Ask for a quote{" "}
             <svg
+            className="main__button__svg"
               width="37"
               height="36"
               viewBox="0 0 37 36"
@@ -211,12 +213,17 @@ export default function Home() {
         ></Image>
         <div className="services__main__div">
           <div className="services__main__flex__div">
+            <div className="services__title__div">
+              <Image className="services__lines" src={ServicesLines}></Image>
             <span className={`services__main__title ${shanti.className}`}>
               SERVICES
             </span>
+            <Image className="services__lines" src={ServicesLines}></Image>
+            </div>
             <div className="services__main__flex__div__2">
               <div className="services__main__flex__div__3">
                 <div className="services__web__creation__div">
+                  <div className="services__web__creation__div__shadow"></div>
                   <div className="web__creation__div">
                     <span
                       className={`web__creation__span ${poppins.className}`}
@@ -346,6 +353,7 @@ export default function Home() {
             <div className="main__work__div__flex__1">
               <div className="work__content__div">
                 <svg
+                className="work__contact__svg"
                   width="37"
                   height="37"
                   viewBox="0 0 37 37"
@@ -412,6 +420,7 @@ export default function Home() {
                 </span>
               </div>
             </div>
+            <div className="work__line1__1" />
             <div className="work__line2" />
             <div className="main__work__div__flex__1">
               <div className="work__email__div">
@@ -503,14 +512,14 @@ export default function Home() {
             <a className="footer__links__span" href="#questions__section">
               Frequent questions
             </a>
-            <Link href="/contact" className="header__contact__button">
+            <Link href="/contact" className="header__contact__button__footer">
               Contact
             </Link>
           </div>
           <a href="#main__section">
             <Image src={FooterLogo} alt="footer__logo"></Image>
           </a>
-          <span className="rights__span">@Skailee all rights reserved 2024</span>
+          <span className="rights__span">@Skaili all rights reserved 2024</span>
         </div>
       </section>
     </main>
