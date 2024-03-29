@@ -427,73 +427,145 @@ export default function Home() {
             <div className="work__line1__1" />
             <div className="work__line2" />
             <div className="main__work__div__flex__1">
-              <div className="work__email__div">
-                <svg
-                  width="49"
-                  height="49"
-                  viewBox="0 0 49 49"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M12.25 27.5625H21.4375V30.625H12.25V27.5625ZM12.25 33.6875H27.5625V36.75H12.25V33.6875Z"
-                    fill="white"
-                  />
-                  <path
-                    d="M39.8125 6.125H9.1875C8.37565 6.12622 7.59739 6.44926 7.02333 7.02333C6.44926 7.59739 6.12622 8.37565 6.125 9.1875V39.8125C6.12622 40.6244 6.44926 41.4026 7.02333 41.9767C7.59739 42.5507 8.37565 42.8738 9.1875 42.875H39.8125C40.6244 42.8738 41.4026 42.5507 41.9767 41.9767C42.5507 41.4026 42.8738 40.6244 42.875 39.8125V9.1875C42.8738 8.37565 42.5507 7.59739 41.9767 7.02333C41.4026 6.44926 40.6244 6.12622 39.8125 6.125ZM27.5625 9.1875V15.3125H21.4375V9.1875H27.5625ZM9.1875 39.8125V9.1875H18.375V18.375H30.625V9.1875H39.8125L39.814 39.8125H9.1875Z"
-                    fill="white"
-                  />
-                </svg>
-                <span className="work__deliver__span">
-                  We will deliver your project in approximately ten days.{" "}
-                  <b>
-                    You can accept (pay and receive the project) or reject it
-                    (no payment required).
-                  </b>
-                </span>
-              </div>
-              <div className="work__line1" />
-              <div className="work__email__div">
-                <svg
-                  width="55"
-                  height="55"
-                  viewBox="0 0 55 55"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M32.0833 34.375V38.9583C32.0833 39.5661 31.8419 40.149 31.4121 40.5788C30.9823 41.0086 30.3995 41.25 29.7917 41.25H13.75L6.875 48.125V25.2083C6.875 24.6005 7.11644 24.0177 7.54621 23.5879C7.97598 23.1581 8.55888 22.9167 9.16667 22.9167H13.75M48.125 32.0833L41.25 25.2083H25.2083C24.6005 25.2083 24.0177 24.9669 23.5879 24.5371C23.1581 24.1073 22.9167 23.5245 22.9167 22.9167V9.16667C22.9167 8.55888 23.1581 7.97598 23.5879 7.54621C24.0177 7.11644 24.6005 6.875 25.2083 6.875H45.8333C46.4411 6.875 47.024 7.11644 47.4538 7.54621C47.8836 7.97598 48.125 8.55888 48.125 9.16667V32.0833Z"
-                    stroke="white"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                </svg>
+              <div className="main__work__div__2row">
+                <div className="work__email__div">
+                  <svg
+                    width="49"
+                    height="49"
+                    viewBox="0 0 49 49"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M12.25 27.5625H21.4375V30.625H12.25V27.5625ZM12.25 33.6875H27.5625V36.75H12.25V33.6875Z"
+                      fill="white"
+                    />
+                    <path
+                      d="M39.8125 6.125H9.1875C8.37565 6.12622 7.59739 6.44926 7.02333 7.02333C6.44926 7.59739 6.12622 8.37565 6.125 9.1875V39.8125C6.12622 40.6244 6.44926 41.4026 7.02333 41.9767C7.59739 42.5507 8.37565 42.8738 9.1875 42.875H39.8125C40.6244 42.8738 41.4026 42.5507 41.9767 41.9767C42.5507 41.4026 42.8738 40.6244 42.875 39.8125V9.1875C42.8738 8.37565 42.5507 7.59739 41.9767 7.02333C41.4026 6.44926 40.6244 6.12622 39.8125 6.125ZM27.5625 9.1875V15.3125H21.4375V9.1875H27.5625ZM9.1875 39.8125V9.1875H18.375V18.375H30.625V9.1875H39.8125L39.814 39.8125H9.1875Z"
+                      fill="white"
+                    />
+                  </svg>
+                  <span className="work__deliver__span">
+                    We will deliver your project in approximately ten days.{" "}
+                    <b>
+                      You can accept (pay and receive the project) or reject it
+                      (no payment required).
+                    </b>
+                  </span>
+                </div>
+                <div className="work__line1" />
+                <div className="work__email__div">
+                  <svg
+                    width="55"
+                    height="55"
+                    viewBox="0 0 55 55"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M32.0833 34.375V38.9583C32.0833 39.5661 31.8419 40.149 31.4121 40.5788C30.9823 41.0086 30.3995 41.25 29.7917 41.25H13.75L6.875 48.125V25.2083C6.875 24.6005 7.11644 24.0177 7.54621 23.5879C7.97598 23.1581 8.55888 22.9167 9.16667 22.9167H13.75M48.125 32.0833L41.25 25.2083H25.2083C24.6005 25.2083 24.0177 24.9669 23.5879 24.5371C23.1581 24.1073 22.9167 23.5245 22.9167 22.9167V9.16667C22.9167 8.55888 23.1581 7.97598 23.5879 7.54621C24.0177 7.11644 24.6005 6.875 25.2083 6.875H45.8333C46.4411 6.875 47.024 7.11644 47.4538 7.54621C47.8836 7.97598 48.125 8.55888 48.125 9.16667V32.0833Z"
+                      stroke="white"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
 
-                <span className="work__email__span">
-                  Stay in touch to create the project that fulfills all your
-                  needs.
-                </span>
-              </div>
-              <div className="work__line1" />
-              <div className="work__email__div">
-                <svg
-                  width="50"
-                  height="50"
-                  viewBox="0 0 50 50"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M39.5833 2.08325L36.9583 7.81242L31.25 10.4166L36.9583 13.0416L39.5833 18.7499L42.1875 13.0416L47.9167 10.4166L42.1875 7.81242M18.75 8.33325L13.5417 19.7916L2.08333 24.9999L13.5417 30.2083L18.75 41.6666L23.9583 30.2083L35.4167 24.9999L23.9583 19.7916M39.5833 31.2499L36.9583 36.9583L31.25 39.5833L36.9583 42.1874L39.5833 47.9166L42.1875 42.1874L47.9167 39.5833L42.1875 36.9583"
-                    fill="white"
-                  />
-                </svg>
+                  <span className="work__email__span">
+                    Stay in touch to create the project that fulfills all your
+                    needs.
+                  </span>
+                </div>
+                <div className="work__line1" />
+                <div className="work__email__div">
+                  <svg
+                    width="50"
+                    height="50"
+                    viewBox="0 0 50 50"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M39.5833 2.08325L36.9583 7.81242L31.25 10.4166L36.9583 13.0416L39.5833 18.7499L42.1875 13.0416L47.9167 10.4166L42.1875 7.81242M18.75 8.33325L13.5417 19.7916L2.08333 24.9999L13.5417 30.2083L18.75 41.6666L23.9583 30.2083L35.4167 24.9999L23.9583 19.7916M39.5833 31.2499L36.9583 36.9583L31.25 39.5833L36.9583 42.1874L39.5833 47.9166L42.1875 42.1874L47.9167 39.5833L42.1875 36.9583"
+                      fill="white"
+                    />
+                  </svg>
 
-                <span className="work__email__span">
-                  A designer will start working on your project, while a
-                  developer will create the project structure.
-                </span>
+                  <span className="work__email__span">
+                    A designer will start working on your project, while a
+                    developer will create the project structure.
+                  </span>
+                </div>
+              </div>
+              <div className="main__work__div__1row">
+              <div className="work__email__div">
+                  <svg
+                    width="50"
+                    height="50"
+                    viewBox="0 0 50 50"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M39.5833 2.08325L36.9583 7.81242L31.25 10.4166L36.9583 13.0416L39.5833 18.7499L42.1875 13.0416L47.9167 10.4166L42.1875 7.81242M18.75 8.33325L13.5417 19.7916L2.08333 24.9999L13.5417 30.2083L18.75 41.6666L23.9583 30.2083L35.4167 24.9999L23.9583 19.7916M39.5833 31.2499L36.9583 36.9583L31.25 39.5833L36.9583 42.1874L39.5833 47.9166L42.1875 42.1874L47.9167 39.5833L42.1875 36.9583"
+                      fill="white"
+                    />
+                  </svg>
+
+                  <span className="work__email__span">
+                    A designer will start working on your project, while a
+                    developer will create the project structure.
+                  </span>
+                </div>
+                <div className="work__line1" />
+                <div className="work__email__div">
+                  <svg
+                    width="55"
+                    height="55"
+                    viewBox="0 0 55 55"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M32.0833 34.375V38.9583C32.0833 39.5661 31.8419 40.149 31.4121 40.5788C30.9823 41.0086 30.3995 41.25 29.7917 41.25H13.75L6.875 48.125V25.2083C6.875 24.6005 7.11644 24.0177 7.54621 23.5879C7.97598 23.1581 8.55888 22.9167 9.16667 22.9167H13.75M48.125 32.0833L41.25 25.2083H25.2083C24.6005 25.2083 24.0177 24.9669 23.5879 24.5371C23.1581 24.1073 22.9167 23.5245 22.9167 22.9167V9.16667C22.9167 8.55888 23.1581 7.97598 23.5879 7.54621C24.0177 7.11644 24.6005 6.875 25.2083 6.875H45.8333C46.4411 6.875 47.024 7.11644 47.4538 7.54621C47.8836 7.97598 48.125 8.55888 48.125 9.16667V32.0833Z"
+                      stroke="white"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+
+                  <span className="work__email__span">
+                    Stay in touch to create the project that fulfills all your
+                    needs.
+                  </span>
+                </div>
+                <div className="work__line1" />
+                <div className="work__email__div">
+                  <svg
+                    width="49"
+                    height="49"
+                    viewBox="0 0 49 49"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M12.25 27.5625H21.4375V30.625H12.25V27.5625ZM12.25 33.6875H27.5625V36.75H12.25V33.6875Z"
+                      fill="white"
+                    />
+                    <path
+                      d="M39.8125 6.125H9.1875C8.37565 6.12622 7.59739 6.44926 7.02333 7.02333C6.44926 7.59739 6.12622 8.37565 6.125 9.1875V39.8125C6.12622 40.6244 6.44926 41.4026 7.02333 41.9767C7.59739 42.5507 8.37565 42.8738 9.1875 42.875H39.8125C40.6244 42.8738 41.4026 42.5507 41.9767 41.9767C42.5507 41.4026 42.8738 40.6244 42.875 39.8125V9.1875C42.8738 8.37565 42.5507 7.59739 41.9767 7.02333C41.4026 6.44926 40.6244 6.12622 39.8125 6.125ZM27.5625 9.1875V15.3125H21.4375V9.1875H27.5625ZM9.1875 39.8125V9.1875H18.375V18.375H30.625V9.1875H39.8125L39.814 39.8125H9.1875Z"
+                      fill="white"
+                    />
+                  </svg>
+                  <span className="work__deliver__span">
+                    We will deliver your project in approximately ten days.{" "}
+                    <b>
+                      You can accept (pay and receive the project) or reject it
+                      (no payment required).
+                    </b>
+                  </span>
+                </div>
               </div>
             </div>
           </div>

@@ -189,7 +189,7 @@
 }
 
 .work__content__div {
-  background: linear-gradient(to bottom, #5050500c, #00000000);
+  background: linear-gradient(to bottom, #42424235, #00000038);
   width: fit-content;
   height: fit-content;
   display: flex;
@@ -217,7 +217,7 @@
 }
 
 .work__email__div {
-  background: linear-gradient(to bottom, #5050500c, #00000000);
+  background: linear-gradient(to bottom, #4646463a, #00000032);
   width: 340px;
   height: 180px;
   display: flex;
@@ -842,9 +842,31 @@
   display: none;
 }
 
+.main__work__div__2row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__work__div__1row {
+  display: none;
+}
+
 @media screen and (max-width: 610px) {
   .footer__links__div {
     gap: 50px;
+  }
+
+  .main__work__div__2row {
+    display: none;
+  }
+
+  .main__work__div__1row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .footer__links__span {
@@ -988,6 +1010,7 @@
   .footer__links__div {
     gap: 45px;
   }
+
 }
 
 @media screen and (max-width: 500px) {
