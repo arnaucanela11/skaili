@@ -175,18 +175,16 @@ export default function Home() {
             <br />
             FOR YOUR BUSINESS
           </h1>
-          <h3
-            className={`main__page__main__description ${raleway.className}`}
-          >
-            We are a <span className="font-bold">digitalization agency</span>{" "}
-            focused on helping you achieve the digitalitzation of your business,
-            in a time record with our specialized team. All prepared to make
-            your business more scalable.
+          <h3 className={`main__page__main__description ${raleway.className}`}>
+            Skaili is a <span className="font-bold">digitalization agency</span>{" "}
+            focused on helping you achieve the digitalization of your business
+            in record time with our specialized team. We are all prepared to
+            make your business more scalable.
           </h3>
           <Link href={"/contact"} className="main__page__main__button">
             Ask for a quote{" "}
             <svg
-            className="main__button__svg"
+              className="main__button__svg"
               width="37"
               height="36"
               viewBox="0 0 37 36"
@@ -207,7 +205,7 @@ export default function Home() {
       </section>
       <section className="services__section" id="services__section">
         <Image
-        alt="gradients"
+          alt="gradients"
           src={GradientServices}
           className="gradient__services__image"
         ></Image>
@@ -215,10 +213,10 @@ export default function Home() {
           <div className="services__main__flex__div">
             <div className="services__title__div">
               <Image className="services__lines" src={ServicesLines}></Image>
-            <span className={`services__main__title ${shanti.className}`}>
-              SERVICES
-            </span>
-            <Image className="services__lines" src={ServicesLines}></Image>
+              <span className={`services__main__title ${shanti.className}`}>
+                SERVICES
+              </span>
+              <Image className="services__lines" src={ServicesLines}></Image>
             </div>
             <div className="services__main__flex__div__2">
               <div className="services__main__flex__div__3">
@@ -234,13 +232,13 @@ export default function Home() {
                       className={`web__creation__span__brackets ${poppins.className}`}
                     >
                       {" "}
-                      (available for all kind of business)
+                      (available for all kinds of businesses)
                     </span>
                   </div>
                   <ul className={`ul__services ${poppins.className}`}>
                     <li>
-                      Specially designed for you (by a professional designer)
-                      and following your needs
+                      Specially designed for you by a professional designer, and
+                      tailored to meet your needs
                     </li>
                     <li>SSL certificate</li>
                     <li>SEO friendly</li>
@@ -250,8 +248,8 @@ export default function Home() {
                     </li>
                     <li>Fast loading</li>
                     <li>
-                      Adaptation to complementary needs (Data Base, Backend,
-                      etc)
+                      Adaptation to complementary needs (Database, Backend,
+                      etc.)
                     </li>
                   </ul>
                 </div>
@@ -262,7 +260,11 @@ export default function Home() {
         </div>
       </section>
       <section className="how_we_work__section" id="process__section">
-        <Image src={BgEllipse} className="main__work__bg" alt="bg__colors"></Image>
+        <Image
+          src={BgEllipse}
+          className="main__work__bg"
+          alt="bg__colors"
+        ></Image>
         <div className="main__work__div relative">
           {/* <svg
             className="work__shape1"
@@ -353,7 +355,7 @@ export default function Home() {
             <div className="main__work__div__flex__1">
               <div className="work__content__div">
                 <svg
-                className="work__contact__svg"
+                  className="work__contact__svg"
                   width="37"
                   height="37"
                   viewBox="0 0 37 37"
@@ -375,7 +377,9 @@ export default function Home() {
                 <span className="work__contact__span">
                   <b>Contact</b> and explain your project to us.
                 </span>
-                <Link className="work__contact__button" href={'/contact'}>Contact now</Link>
+                <Link className="work__contact__button" href={"/contact"}>
+                  Contact now
+                </Link>
               </div>
               <div className="work__line1" />
               <div className="work__email__div">
@@ -393,8 +397,8 @@ export default function Home() {
                 </svg>
 
                 <span className="work__email__span">
-                  We will reply you in a few time, explaining the stimated
-                  budget and all the details.
+                  We will reply to you in a short time, explaining the{" "}
+                  <b>estimated budget</b> and all the details.
                 </span>
               </div>
               <div className="work__line1" />
@@ -415,8 +419,8 @@ export default function Home() {
                 </svg>
 
                 <span className="work__email__span">
-                  Aprove or reject our offer, if you accept, we will agree an
-                  online meeting and start planifying the project.
+                  Approve or reject our offer. If you accept, we will arrange an
+                  online meeting and start planning the project.
                 </span>
               </div>
             </div>
@@ -441,10 +445,10 @@ export default function Home() {
                   />
                 </svg>
                 <span className="work__deliver__span">
-                  We will be delivering your project on average about ten days.{" "}
+                  We will deliver your project in approximately ten days.{" "}
                   <b>
-                    You can accept (pay and get the project) or reject it (no
-                    pay).
+                    You can accept (pay and receive the project) or reject it
+                    (no payment required).
                   </b>
                 </span>
               </div>
@@ -467,7 +471,7 @@ export default function Home() {
                 </svg>
 
                 <span className="work__email__span">
-                  Stay in contact to create the project fulfilling all your
+                  Stay in touch to create the project that fulfills all your
                   needs.
                 </span>
               </div>
@@ -488,7 +492,7 @@ export default function Home() {
 
                 <span className="work__email__span">
                   A designer will start working on your project, while a
-                  developer will be creating the project structure.
+                  developer will create the project structure.
                 </span>
               </div>
             </div>

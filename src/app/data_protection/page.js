@@ -29,14 +29,13 @@ function page() {
             <span className="purpose__span">1. Purpose</span>
             <div className="ml-8 mt-4">
               <span className="purpose__text__span">
-                For the use of certain services, the user must communicate
-                personal data. Users, by ticking the box enabled in the contact
-                forms enabled on the website expressly and freely and
-                unequivocally accept that their personal data are processed by
-                Skaili, where it will inform the user according to analyze the
-                information that derives from such management to improve our
-                services and adapt them to the preferences of users with the
-                following purposes:{" "}
+                For the use of certain services, the user must provide personal
+                data. By ticking the checkbox provided in the contact forms on
+                the website, users expressly, freely, and unequivocally accept
+                that their personal data will be processed by Skaili. Skaili
+                will inform the user accordingly, and analyze the information
+                derived from such management to improve our services and adapt
+                them to the preferences of users, for the following purposes:{" "}
               </span>
               <ul className="purpose__text__ul">
                 <li>
@@ -48,8 +47,8 @@ function page() {
                   interested parties.
                 </li>{" "}
                 <li>
-                  We prepare a «business profile», based on the information
-                  provided. No automated decisions will be made based on this
+                  We prepare a 'business profile' based on the provided
+                  information. No automated decisions will be made based on this
                   profile.
                 </li>
               </ul>
@@ -59,25 +58,26 @@ function page() {
             <span className="purpose__span">2. Legitimation</span>
             <div className="ml-8 mt-4">
               <span className="purpose__text__span">
-                When the user sends his personal data to Skaili, he expressly
-                consents that Skaili carries out the following activities and/or
-                actions, unless otherwise stated when contracting or subscribing
-                to any Skaili product and/or service or as a result of a
-                subsequent revocation of the consent initially granted:
+                When the user sends their personal data to Skaili, they
+                expressly consent to Skaili carrying out the following
+                activities and/or actions, unless otherwise stated during the
+                contracting or subscription process of any Skaili product and/or
+                service, or as a result of subsequent revocation of the
+                initially granted consent:
               </span>
               <ul className="purpose__text__ul">
                 <li>
-                  Process orders, requests or respond to requests that are made
-                  by the user through any of the contact forms that are made
-                  available to the user on the Skaili website
+                  Process orders, requests, or respond to inquiries made by the
+                  user through any of the contact forms available on the Skaili
+                  website.
                 </li>
                 <li>Carry out statistical studies</li>{" "}
               </ul>
               <span className="legitimation__text__span__1">
-                By sending data, you consent to Skaili processing your personal
-                data according to the purposes described. You guarantee that the
-                data provided are truthful, accurate and complete, and you are
-                responsible for notifying any changes in these.
+                By submitting data, you consent to Skaili processing your
+                personal data according to the purposes described. You guarantee
+                that the data provided are truthful, accurate, and complete, and
+                you are responsible for notifying any changes to them.
               </span>
             </div>
           </div>
@@ -85,28 +85,30 @@ function page() {
             <span className="purpose__span">3. Recipients</span>
             <div className="ml-8 mt-4 flex flex-col gap-4">
               <span className="purpose__text__span">
-                The data will be communicated to other companies of the Skaili
+                The data will be shared with other companies within the Skaili
                 business group for internal administrative purposes, including
                 the processing of personal data of customers or employees. The
-                files are stored in our technological providers of Web storage,
-                Email and online marketing, according to EU-US Privacy security:
+                files are stored with our technological providers for web
+                storage, email, and online marketing, ensuring EU-US Privacy
+                Shield security.
               </span>
               <ul className="recipients__text__ul">
-                <li>Hostinger as the hosting provider.</li>
+                <li>Vercel as the hosting provider.</li>
               </ul>
               <span className="purpose__text__span">
                 By accepting this Privacy Policy, you expressly authorize us to
-                process and communicate your personal data to the aforementioned
+                process and share your personal data with the aforementioned
                 companies and/or to transfer your personal data to the referred
                 service providers as processors located for the purposes
-                described herein and to give you a complete service.
+                described herein, in order to provide you with a comprehensive
+                service.
               </span>
               <span className="purpose__text__span">
                 Skaili expressly informs and guarantees users that their
-                personal data will not be transferred in any case to third
-                companies, and that whenever some type of transfer of personal
-                data is to take place, prior express consent would be requested,
-                informed, and unequivocal by the holders.
+                personal data will not be transferred to third-party companies
+                under any circumstances. In the event that any type of personal
+                data transfer is to occur, prior explicit, informed, and
+                unequivocal consent will be requested from the data subjects.
               </span>
             </div>
           </div>
@@ -116,30 +118,22 @@ function page() {
               <span className="purpose__text__span">
                 In accordance with data protection legislation, you have the
                 right to information, access, rectification, cancellation,
-                opposition and portability. You. you have the right to obtain
-                confirmation as to whether or not we process personal data
-                concerning you at Skaili. Interested persons have the right to
-                access your personal data, as well as to request rectification
-                of inaccurate data or where appropriate, request their deletion
-                where, inter alia, the data are no longer necessary for the
+                opposition, and portability. You have the right to obtain
+                confirmation as to whether or not Skaili processes personal data
+                concerning you. Interested persons have the right to access
+                their personal data, as well as to request rectification of
+                inaccurate data or, where appropriate, request their deletion,
+                particularly when the data are no longer necessary for the
                 purposes for which they were collected.
               </span>
               <span className="purpose__text__span">
-                En determinadas circunstancias, los interesados podrán solicitar
-                la limitación del tratamiento de sus datos, en cuyo solo caso
-                los conservaremos para el ejercicio o la defensa de
-                reclamaciones.
-              </span>
-              <span className="purpose__text__span">
-                En determinadas circunstancias y por motivos relacionados con su
-                situación particular, los interesados podrán oponerse al
-                tratamiento de sus datos Skaili dejará de tratar los datos,
-                salvo por motivos legítimos imperiosos, o el ejercicio o la
-                defensa de posibles reclamaciones.
+                In certain circumstances, data subjects may request the
+                limitation of the processing of their data, in which case we
+                will only keep them for the exercise or defense of claims.
               </span>
               <span className="purpose__text__span">
                 You can exercise your rights of access, rectification,
-                cancellation, opposition and portability by sending an email to
+                cancellation, opposition, and portability by sending an email to
                 info@skaili.es.
               </span>
               <span className="purpose__text__span">
@@ -148,10 +142,10 @@ function page() {
                 indicated above.
               </span>
               <span className="purpose__text__span">
-                Likewise, it shall take all necessary measures to prevent its
-                alteration, loss, processing or unauthorized access, in
-                accordance with the provisions of the regulations on the
-                protection of personal data.
+                Likewise, it shall take all necessary measures to prevent
+                alteration, loss, processing, or unauthorized access to personal
+                data, in accordance with the provisions of the regulations on
+                the protection of personal data.
               </span>
             </div>
           </div>
