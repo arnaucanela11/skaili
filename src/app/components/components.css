@@ -8,8 +8,8 @@
   margin-top: 2.5rem;
 }
 
-.Angely__logo {
-  width: 2rem;
+.Skaili__logo {
+  width: 8rem;
 }
 
 .header__elements__div {
@@ -312,6 +312,11 @@
   .carrusel__wrapper {
     gap: 180px;
   }
+
+  .Skaili__logo {
+    width: 7rem;
+  }
+  
 }
 
 @media screen and (max-width: 610px) {
@@ -322,6 +327,10 @@
 
   .question__1__text {
     font-size: 12px;
+  }
+
+  .Skaili__logo {
+    width: 6rem;
   }
 }
 
@@ -347,6 +356,10 @@
   .carrusel__images {
     width: 360px;
     height: 190px;
+  }
+
+  .Skaili__logo {
+    width: 5rem;
   }
 
 }

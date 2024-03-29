@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import React, { useState } from "react";
-import AngelyLogo from "../assets/AngelyLogo.png";
+import AngelyLogo from "../assets/SkailiLogo.png";
 import "./components.css";
 import { motion } from "framer-motion";
 import Link from "next/link";
@@ -15,7 +15,7 @@ function Header() {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
     <section className="header__section">
-      <Image alt="logo" src={AngelyLogo} className="Angely__logo" />
+      <Image alt="logo" src={AngelyLogo} className="Skaili__logo" />
       <div className="header__elements__div">
         <a className="footer__links__span" href="#services__section">
           Services

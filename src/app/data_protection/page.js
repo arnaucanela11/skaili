@@ -1,5 +1,5 @@
 import Image from "next/image";
-import AngelyLogo from "../assets/AngelyLogo.png";
+import AngelyLogo from "../assets/SkailiLogo.png";
 import Link from "next/link";
 import "./data_protection.css";
 import { shanti } from "../layout";
@@ -9,7 +9,7 @@ function page() {
     <main className="w-100vw h-[100vh] overflow-x-hidden overflow-y-scroll relative">
       <section className="header__section">
         <Link href={"/"}>
-          <Image alt="logo" src={AngelyLogo} className="Angely__logo" />
+          <Image alt="logo" src={AngelyLogo} className="Skaili__logo" />
         </Link>
         <div className="flex flex-row gap-10 justify-center items-center">
           <Link href="/contact" className="header__contact__button">

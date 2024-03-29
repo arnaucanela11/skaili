@@ -408,6 +408,7 @@
     display: none;
   }
 
+
   .message__field {
     width: 114%;
     height: 160px;
@@ -426,6 +427,7 @@
   .main__contact {
     justify-content: center;
     align-items: center;
+    margin-top: 60px;
   }
 
   .contact__form__div {
@@ -436,7 +438,7 @@
     display: block;
     position: absolute;
     z-index: -1;
-    top: 10%;
+    top: 14%;
     left: 16%;
   }
 
@@ -444,7 +446,7 @@
     display: block;
     position: absolute;
     z-index: -1;
-    bottom: -6%;
+    bottom: -11%;
     right: 16%;
   }
 
@@ -476,40 +478,47 @@
   .contact__crown {
     left: 10%;
     width: 180px;
-    top: 12%;
+    top: 18%;
   }
 
   .contact__crown__1 {
     right: 10%;
-    bottom: -5%;
+    bottom: -12%;
     width: 180px;
   }
+
+  .main__contact {
+    margin-top: 80px;
+  }
+
 }
 
 @media screen and (max-width: 780px) {
   .contact__crown {
     left: 6%;
-    top: 14%;
+    top: 16%;
   }
 
   .contact__crown__1 {
     right: 6%;
-    bottom: -5%;
+    bottom: -9%;
   }
   .main__contact {
-    margin-top: 8%;
+    margin-top: 9%;
   }
 }
 
 @media screen and (max-width: 710px) {
   .contact__crown {
     left: 5%;
-    top: 14%;
+    top: 17%;
+    width: 150px;
   }
 
   .contact__crown__1 {
     right: 5%;
-    bottom: -7.5%;
+    bottom: -7%;
+    width: 150px;
   }
   .main__contact {
     margin-top: 8%;
@@ -560,13 +569,17 @@
     height: 120%;
     top: 62%;
   }
+
+  .main__contact {
+    margin-top: 70px;
+  }
 }
 
 .field__label {
   font-size: 14px;
 }
 
-@media screen and (max-width: 710px) {
+/* @media screen and (max-width: 710px) {
   .name__field {
     font-size: 12px;
   }
@@ -608,7 +621,7 @@
     height: 120%;
     top: 62%;
   }
-}
+} */
 
 .field__label__flex {
   display: flex;
@@ -671,12 +684,12 @@
 
   .contact__crown {
     width: 130px;
-    left: 4%;
+    left: 7%;
   }
 
   .contact__crown__1 {
-    right: 4%;
-    bottom: -14%;
+    right: 7%;
+    bottom: -19%;
     width: 130px;
   }
 
@@ -701,7 +714,7 @@
   }
 
   .message__field {
-    width: 120%;
+    width: 110%;
     height: 250px;
     font-size: 12px;
   }
