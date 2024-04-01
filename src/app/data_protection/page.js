@@ -134,7 +134,7 @@ function page() {
               <span className="purpose__text__span">
                 You can exercise your rights of access, rectification,
                 cancellation, opposition, and portability by sending an email to
-                info@skaili.es.
+                info.skaili@gmail.com.
               </span>
               <span className="purpose__text__span">
                 Skaili also undertakes to guarantee the confidentiality of your
@@ -172,7 +172,7 @@ function page() {
                 will be included in a file owned by Arnau Canela Daunis from now
                 Skaili, with registered office in Carrer Pintor Doménech i Farré
                 3-A2, 08320 El Masnou (Barcelona); provided with N.I.F. no.
-                48221444N; with e-mail address info@skaili.es.
+                48221444N; with e-mail address info.skaili@gmail.com.
               </span>
               <span className="purpose__text__span">
                 The processing of your data and this Privacy Policy will be

@@ -18,8 +18,8 @@
   width: fit-content;
   justify-content: center;
   align-items: center;
-  gap: 6rem;
-  margin-left: 60px;
+  gap: 8rem;
+  margin-left: 30px;
 }
 
 .header__elements__services {

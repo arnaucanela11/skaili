@@ -142,6 +142,7 @@
 .ul__services > li {
   color: #fff;
   margin-bottom: 10px;
+  max-width: 600px;
 }
 
 .ServicesTech__image {
@@ -517,6 +518,10 @@
   .questions__section {
     margin-top: 270px;
     margin-bottom: 200px;
+  }
+
+  .ul__services > li {
+    max-width: 520px;
   }
 }
 
