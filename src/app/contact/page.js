@@ -113,7 +113,7 @@ function page() {
                             name="name"
                             type="text"
                             className="name__field"
-                            placeholder="Name*"
+                            placeholder={`${translations.formplaceholder1}`}
                           />
                           <ErrorMessage
                             name="name"
@@ -136,7 +136,7 @@ function page() {
                             name="company"
                             type="text"
                             className="name__field"
-                            placeholder="Company name"
+                            placeholder={`${translations.formplaceholder2}`}
                           />
                           <ErrorMessage
                             name="company"
@@ -157,7 +157,7 @@ function page() {
                           name="email"
                           type="text"
                           className="name__field__1"
-                          placeholder="Email*"
+                          placeholder={`${translations.formplaceholder3}`}
                         />
                         <ErrorMessage
                           name="email"
@@ -176,7 +176,7 @@ function page() {
                           as="textarea"
                           name="message"
                           className="message__field"
-                          placeholder="Message*"
+                          placeholder={`${translations.formplaceholder4}`}
                         />
                         <ErrorMessage
                           name="message"
