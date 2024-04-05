@@ -316,6 +316,15 @@
   .Skaili__logo {
     width: 7rem;
   }
+
+  @keyframes scroll {
+    from {
+      transform: translateX(0%);
+    }
+    to {
+      transform: translateX(-171em);
+    }
+  }
   
 }
 
@@ -360,6 +369,15 @@
 
   .Skaili__logo {
     width: 5rem;
+  }
+
+  @keyframes scroll {
+    from {
+      transform: translateX(0%);
+    }
+    to {
+      transform: translateX(-144em);
+    }
   }
 
 }
