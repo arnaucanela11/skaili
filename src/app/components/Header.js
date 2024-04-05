@@ -58,11 +58,11 @@ function Header() {
               className="header__toggle__menu__div"
             >
               <div>
-                <a href="#services__section">Services</a>
-                <a href="#process__section">Process</a>
-                <a href="#questions__section">Frequent Questions</a>
+                <a href="#services__section">{translations.headerelement1}</a>
+                <a href="#process__section">{translations.headerelement2}</a>
+                <a href="#questions__section">{translations.headerelement3}</a>
                 <Link href={"/contact"} className="header__toggle__menu__login">
-                  Contact
+                {translations.contactbutton}
                 </Link>
               </div>
             </motion.div>

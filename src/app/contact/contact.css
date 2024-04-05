@@ -940,6 +940,8 @@
 
   .main__contact__title {
     font-size: 42px;
+    margin: auto;
+    width: fit-content;
   }
 
   .main__contact__subtitle {
@@ -1041,7 +1043,7 @@
   }
 
   .main__contact__title {
-    font-size: 36px;
+    font-size: 34px;
   }
 
   /* .contact__crown__1 {
@@ -1133,5 +1135,9 @@
   .main__contact__shadow__2 {
     width: 250px;
     height: 250px;
+  }
+
+  .main__contact__title {
+    font-size: 30px;
   }
 }
