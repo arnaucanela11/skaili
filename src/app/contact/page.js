@@ -34,8 +34,10 @@ const initailaState = {
 const sendMessage = async (values) => {
   try {
     const resp = await fetch(
-      "https://skailee-09041f34dfef.herokuapp.com/api/mail/register",
+      // "https://skailee-09041f34dfef.herokuapp.com/api/mail/register",
+      "https://om3ziwo23m.execute-api.eu-west-3.amazonaws.com/SendEmail",
       {
+        mode: "no-cors",
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(values),
@@ -53,10 +55,9 @@ function page() {
     if (!values.company) {
       values.company = "a company";
     }
-    const { msg } = await sendMessage(values);
-    if (msg) {
-      resetForm();
-    }
+    await sendMessage(values);
+
+    resetForm();
   };
   return (
     <Translator>
@@ -73,7 +74,9 @@ function page() {
           </section>
           <div className="main__flex__contact">
             <div className="title__div">
-              <h1 className="main__contact__title">{translations.contacttitle}</h1>
+              <h1 className="main__contact__title">
+                {translations.contacttitle}
+              </h1>
               <h3 className="main__contact__subtitle">
                 {translations.contactsubtitle}
               </h3>
@@ -217,7 +220,7 @@ function page() {
                               href={"/data_protection"}
                               className="underline"
                             >
-                            {translations.formrights2}
+                              {translations.formrights2}
                             </Link>
                           </span>
                         </label>
@@ -235,7 +238,9 @@ function page() {
                         />
                       </div>
                       <button type="submit" className="button__submit">
-                        <span className="send__span">{translations.sendbutton}</span>
+                        <span className="send__span">
+                          {translations.sendbutton}
+                        </span>
                         <svg
                           width="12"
                           height="9"
