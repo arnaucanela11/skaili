@@ -1,5 +1,5 @@
 "use client"
-import BgEllipse from "../assets/Ellipse 5.png";
+import BgEllipse from "../assets/Ellipse5.png";
 import Image from "next/image"
 import Link from "next/link"
 import Translator from "./Translator";

@@ -312,6 +312,8 @@
 .main__work__bg {
   position: absolute;
   z-index: -1;
+  /* width: 2200px;
+  height: 1900px; */
 }
 
 .questions__section {
@@ -426,6 +428,11 @@
     background-position: center;
     background-size: cover;
   }
+
+  .main__work__bg {
+    width: 3000px;
+    height: 1550px;
+  } 
 
 }
 
@@ -557,8 +564,8 @@
   }
 
   .main__work__bg {
-    width: 1800px;
-    height: 1200px;
+    width: 2500px;
+    height: 1500px;
   }
 
   .how_we_work__section {
@@ -765,6 +772,11 @@
     margin-top: 250px;
     margin-bottom: 180px;
     gap: 50px;
+  }
+
+  .main__work__bg {
+    width: 2500px;
+    height: 1200px;
   }
 }
 
@@ -1046,7 +1058,7 @@
   }
 
   .main__work__div {
-    padding: 20px 50px;
+    padding: 20px 40px;
   }
 
   .questions__title {
@@ -1088,8 +1100,8 @@
   .main__work__bg {
     position: absolute;
     z-index: -1;
-    height: 205%;
-    width: 1000px;
+    height: 1900px;
+    width: 2500px;
   }
 
   .questions__section {
@@ -1320,7 +1332,7 @@
   }
 
   .main__work__div {
-    padding: 20px 35px;
+    padding: 20px 25px;
   }
 
   .work__email__div {
@@ -1360,5 +1372,10 @@
 
   .rights__span {
     font-size: 11px;
+  }
+
+  .main__work__bg {
+    width: 2500px;
+    height: 1850px;
   }
 }
